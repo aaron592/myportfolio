@@ -1,0 +1,217 @@
+#title{
+	background-color:#737373;
+}
+
+body{
+	background:#737373;
+}
+
+.image1{	
+	width:100%;
+	position:absolute;
+	border: 10px solid black;
+	box-shadow: 6px 6px 6px rgb(204, 212, 219);
+	
+}
+
+.container-fluid{
+	padding: 0% 0% 15%;
+}
+
+h1{
+	font-family: "Montserrat-Black";
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+#h2{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+	font-size: 2rem;
+	line-height: 1.5;
+}
+#h22{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+	font-size: 2rem;
+	line-height: 1.5;
+}
+#h3 {
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+
+p{
+color:grey;
+}
+
+.description{
+	font-family:"Arial Black", Gadget, sans-serif;
+	padding: 3% 6%;
+	font-size: 3.5rem;
+	
+}
+
+.para1{
+	font-family:"Arial Black", Gadget, sans-serif;
+	padding: 0 6%;
+	font-size: 1.5rem;
+	color:black;
+	
+}
+
+
+
+#btn1{
+	font-family:Arial, Helvetica, sans-serif;
+width:250px;
+height:50px;
+margin: 5% 2% 2% 5%;
+
+	border: 2px solid black;
+  color:black ;
+  
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Navigation bar */
+.navbar{
+	padding: 0 0 4.5rem;
+}
+.navbar-brand{
+	
+	padding: 3%;
+}
+
+.container{
+	padding-top:60px;
+	color:#dcdde1;
+}
+
+#logo {
+	
+	font-size: 2.5rem;
+	
+}
+.nav-item{
+	padding: 0px 18px;
+}
+
+.nav-link{
+	font-size: 1.2rem;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.download-button{
+	margin: 5% 3% 5% 0;
+}
+
+#para{
+	padding-top:20px;
+}
+
+/* featured section*/
+
+#features{
+	/* padding:; */
+	background-color:#737373;
+	position:relative;
+	
+}
+.feature-box{
+	text-align:center;
+	padding: 4.5%;
+}
+.feature-box>h1{
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:white;
+	font-size: 35px;
+}
+
+.icon{
+	color:#0a3d62;
+	margin-bottom: 1rem;
+}
+.icon:hover{
+	color:#82ccdd;
+}
+
+.para2>ul>li{
+	list-style-type: none;
+}
+
+.para2>ul>li:not(:first-child){
+	color:black;
+}
+
+.para2>p{
+	color:black;
+}
+
+.head1{
+	text-align: center;
+}
+
+.head1>h1{
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:white;
+	font-size: 35px;
+}
+/* Projects*/
+#project{
+	background-color:#737373;
+}
+
+
+
+#press{
+	background-color:#3c6382;
+	text-align:center;
+	padding-bottom: 3%;
+	
+}
+.carousel-item{
+	padding: 7% 15%;
+}
+
+/* pricing section */
+ #pricing{
+	 padding:100px;
+	 text-align:center;
+ }
+
+ .pricing-column{
+	 padding: 3% 2%;
+ }
+
+ @media (max-width: 1028px) {
+	 #title{
+		 text-align:center;
+	 }
+	 .image1{
+		 position:static;
+		 transform: rotate(0);
+		 
+	 }
+	 .para2>p{
+		 text-align: justify;
+	 }
+ }
+ 
+ /* footer */
+ 
+ #cta{
+	background-color:#737373;
+	 padding:7% 10% 0%;
+	 text-align:center;
+ }
+ #footer{
+	 
+	 text-align:center;
+	 padding: 2%; 
+	 background-color:#585656;
+ }
+
+ #footer>p{
+	 color:white;
+ }
+ 
