@@ -18,20 +18,20 @@
 <div class="container-fluid">
     <!-- Nav Bar -->
 <nav class="navbar navbar-expand-lg navbar-dark">
-    <a id="logo" class="navbar-brand" href=""><img src="./images/logo.png" width="60px" height="60px"></a>
+    <a id="logo" class="navbar-brand" href=""><img src="./images/logo.png" width="60px" height="60px" style="border:5px solid black; border-radius: 50%;"></a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href="">About</a>
+            <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">Projects</a>
+            <a class="nav-link" href="#project">Projects</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">Contact</a>
+            <a class="nav-link" href="#cta">Contact</a>
         </li>
     </ul>
  </div>
@@ -65,9 +65,9 @@
 
   <!-- Features -->
 
-  <section id="features">
+  <section id="about">
     <div class="row">
-      <div class="feature-box col-lg-12 col-md-6">
+      <div class="about-box col-lg-12 col-md-6">
         <h1>ABOUT ME</h1>
         <div class="para2 col-lg-12 col-md-6">
           <p>I'm a student currently pursuing B.Tech IT from ECET. I'm interested in web designing and web development. My passion is to become a Fullstack Web Developer and I'm running behind it. I was learning Web Development for the past 1 year and I'm very much interested in designing websites. I look forward to putting my education and accquired skills to use. I'm excited to continue developing my skills.</p>
@@ -94,16 +94,16 @@
   <div class="card">
     <img class="card-img-top" src="./images/project1.png" alt="ATJ optical project">
     <div class="card-body">
-      <h5 class="card-title">sample project created using css</h5>
+      <h6 class="card-title">sample project created using css</h6>
      
     </div>
   </div>
-  <div class="card p-3">
+  <div class="card p-3" >
     <blockquote class="blockquote mb-0 card-body">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <p>There is nothing so useless as doing efficiently that which should not be done at all.</p>
       <footer class="blockquote-footer">
         <small class="text-muted">
-          Someone famous in <cite title="Source Title">Source Title</cite>
+         Peter Drucker<cite title="Source Title"></cite>
         </small>
       </footer>
     </blockquote>
@@ -115,41 +115,20 @@
       
     </div>
   </div>
-  <div class="card bg-primary text-white text-center p-3">
+  <div id="project4_div" class="card  text-white text-center p-3">
     <blockquote class="blockquote mb-0">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-      <footer class="blockquote-footer">
-        <small>
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </small>
-      </footer>
+      <p><img class="card-img-top" src="./images/project4.png" alt="Card image cap"></p>
+      
     </blockquote>
   </div>
-  <div class="card text-center">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
+  
   <div class="card">
     <img class="card-img" src="./images/project3.png" alt="Card image">
   </div>
-  <div class="card p-3 text-right">
-    <blockquote class="blockquote mb-0">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer class="blockquote-footer">
-        <small class="text-muted">
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </small>
-      </footer>
-    </blockquote>
-  </div>
+  
   <div class="card">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <p class="card-text"><img class="card-img-top" src="./images/project5.png" alt="Card image cap"></p>
     </div>
   </div>
 </div>
@@ -157,10 +136,13 @@
   <!-- Call to Action -->
 
   <section id="cta">
-
-    <h3>Find the True View of Your App Today.</h3>
-    <button class="btn btn-dark download-button" type="button"><i class="fa fa-rss" aria-hidden="true"></i> My Blog</button>
-    <button class="btn btn-outline-light " type="button"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Hire Me</button>
+    <div class="contact col-lg-12 col-md-6">
+    <h3>Get subscribed!</h3>
+    <input type="email" placeholder="Enter your email..."  required/>
+    <br/>
+    <br/>
+    <button type="submit" class="btn " style="background-color: black;color:white;" >Subscribe</button>
+    </div>
 	<br>
 	<br>
 

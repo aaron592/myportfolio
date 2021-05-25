@@ -109,19 +109,19 @@ margin: 5% 2% 2% 5%;
 	padding-top:20px;
 }
 
-/* featured section*/
+/* about section*/
 
-#features{
+#about{
 	/* padding:; */
 	background-color:#737373;
 	position:relative;
 	
 }
-.feature-box{
+.about-box{
 	text-align:center;
 	padding: 4.5%;
 }
-.feature-box>h1{
+.about-box>h1{
 	font-family:"Arial Black", Gadget, sans-serif;
 	color:white;
 	font-size: 35px;
@@ -161,27 +161,13 @@ margin: 5% 2% 2% 5%;
 	background-color:#737373;
 }
 
-
-
-#press{
-	background-color:#3c6382;
-	text-align:center;
-	padding-bottom: 3%;
-	
-}
-.carousel-item{
-	padding: 7% 15%;
+.card-title{
+	color: #6d6464;
 }
 
-/* pricing section */
- #pricing{
-	 padding:100px;
-	 text-align:center;
- }
-
- .pricing-column{
-	 padding: 3% 2%;
- }
+#project4_div{
+	background-color: #c5c5c5;
+}
 
  @media (max-width: 1028px) {
 	 #title{
@@ -202,8 +188,29 @@ margin: 5% 2% 2% 5%;
  #cta{
 	background-color:#737373;
 	 padding:7% 10% 0%;
-	 text-align:center;
+	 text-align: center;
  }
+
+ .contact>h3{
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:white;
+	font-size: 35px;
+ }
+
+ .contact>input{
+	padding-top: 4px;
+	padding-bottom: 9px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 5px;
+	border:none;
+ }
+
+ .contact>button{
+padding-left:60px;
+padding-right: 60px;
+ }
+
  #footer{
 	 
 	 text-align:center;
