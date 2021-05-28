@@ -58,7 +58,25 @@ color:grey;
 	
 }
 
+#about{
+	background-color: #737373;
+	padding-bottom: 70px;
+}
+.about>.container{
+	background-color: #737373;
+	
+}
 
+.abouthead{
+	font-family:"Arial Black", Gadget, sans-serif;
+	
+	color:white;
+	font-size: 35px;
+}
+
+.aboutpara>p{
+	color:black;
+}
 
 #btn1{
 	font-family:Arial, Helvetica, sans-serif;
@@ -111,12 +129,7 @@ margin: 5% 2% 2% 5%;
 
 /* about section*/
 
-#about{
-	/* padding:; */
-	background-color:#737373;
-	position:relative;
-	
-}
+
 .about-box{
 	text-align:center;
 	padding: 4.5%;
