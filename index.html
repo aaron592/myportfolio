@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="css/styles.css">
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://use.fontawesome.com/8600ccd1c2.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css">
+  <script src="https://use.fontawesome.com/8600ccd1c2.js"></script>
 
 </head>
 
@@ -17,21 +19,21 @@
   <section id="title">
 <div class="container-fluid">
     <!-- Nav Bar -->
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg ">
     <a id="logo" class="navbar-brand" href=""><img src="./images/logo.png" width="60px" height="60px" ></a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <i class="fas fa-bars"></i>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#about" style="color:rgb(45, 45, 71); font-size: 17px;">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#project">Projects</a>
+            <a class="nav-link" href="#project" style="color:rgb(45, 45, 71);font-size: 17px;">Projects</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#cta">Contact</a>
+            <a class="nav-link" href="#cta" style="color:rgb(45, 45, 71);font-size: 17px;">Contact</a>
         </li>
     </ul>
  </div>
@@ -42,13 +44,13 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-         <h1 class="description">Hi!</h1>
-         <p class="para1">I'm Aaron Thomas John currently pursuing my B-Tech degree in Information Technology.</p>
+         <h1 class="description">Hi! I Am <br/><span style="color:rgb(105, 175, 221)">Aaron Thomas John</span></h1>
+         <p class="para1">I'm a student currently pursuing my B-Tech degree in Information Technology.</p>
        <br>
         <a href="./file/Aaron Thomas John(resume).pdf" download><button id="btn1" class="btn btn-outline-light " type="button">DOWNLOAD RESUME</button></a>
       </div>
       <div class="col-lg-6 ">
-       <img class="image1" src="images/mypic.png" alt="iphone-mockup">
+       <img class="image1" src="images/mybanner.png" alt="iphone-mockup">
       </div>
     </div>
     </div>
@@ -64,15 +66,20 @@
   <section id="about">
     <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <h1 class="abouthead text-center">ABOUT ME</h1>
+      <div class="card text-center col-md-12">
+        <div class="card-header">
+          <h1>About Me</h1>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">I'm a student currently pursuing B.Tech IT from ECET. I'm interested in web designing and web development. My passion is to become a Fullstack Web Developer and I'm running behind it. I was learning Web Development for the past 1 year and I'm very much interested in designing websites. I look forward to putting my education and accquired skills to use. I'm excited to continue developing my skills.</h5>
+          <p class="card-text">......</p>
+          <ul class="list text-left">
+            <li >My Experience:</li>
+            <li>I had done a master project using PHP.</li>
+            <li>I had done internship at Nethuts Solutions as a Web Developer.</li>
+          </ul>
+        </div>
         
-        <div class="aboutpara" style="font-size: 1.4rem;text-align:left;"><p>I'm a student currently pursuing B.Tech IT from ECET. I'm interested in web designing and web development. My passion is to become a Fullstack Web Developer and I'm running behind it. I was learning Web Development for the past 1 year and I'm very much interested in designing websites. I look forward to putting my education and accquired skills to use. I'm excited to continue developing my skills.</p></div>
-        <ul class="list text-left">
-          <li >My Experience:</li>
-          <li>I had done a master project using PHP.</li>
-          <li>I had done internship at Nethuts Solutions as a Web Developer.</li>
-        </ul>
       </div>
     </div>
   </div>
@@ -83,41 +90,28 @@
 
 <!-- project section  -->
 <section id="project">
-<div class="head1 text-center"><h1>PROJECTS </h1></div>
+<div class="head1 text-center"><h1>Projects </h1></div>
 <div class="card-columns ">
   <div class="card">
-    <img class="card-img-top" src="./images/project1.png" alt="ATJ optical project">
     <div class="card-body">
-      <h6 class="card-title">sample project created using css</h6>
-     
+      <p class="card-text"><img class="card-img-top" src="./images/project1.png" alt="Card image cap"></p>
     </div>
-  </div>
-  <div class="card p-3" >
-    <blockquote class="blockquote mb-0 card-body">
-      <p>There is nothing so useless as doing efficiently that which should not be done at all.</p>
-      <footer class="blockquote-footer">
-        <small class="text-muted">
-         Peter Drucker<cite title="Source Title"></cite>
-        </small>
-      </footer>
-    </blockquote>
   </div>
   <div class="card">
-    <img class="card-img-top" src="./images/project2.png" alt="Card image cap">
     <div class="card-body">
-      <p class="card-text">Card type styles using css</p>
-      
+      <p class="card-text"><img class="card-img-top" src="./images/project2.png" alt="Card image cap"></p>
     </div>
   </div>
-  <div id="project4_div" class="card  text-white text-center p-3">
-    <blockquote class="blockquote mb-0">
-      <p><img class="card-img-top" src="./images/project4.png" alt="Card image cap"></p>
-      
-    </blockquote>
+  <div class="card">
+    <div class="card-body">
+      <p class="card-text"><img class="card-img-top" src="./images/project3.png" alt="Card image cap"></p>
+    </div>
   </div>
   
   <div class="card">
-    <img class="card-img" src="./images/project3.png" alt="Card image">
+    <div class="card-body">
+      <p class="card-text"><img class="card-img-top" src="./images/project4.png" alt="Card image cap"></p>
+    </div>
   </div>
   
   <div class="card">

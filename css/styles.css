@@ -1,5 +1,6 @@
 #title{
-	background-color:#737373;
+	background-color:#ffffff;
+
 }
 
 body{
@@ -9,8 +10,7 @@ body{
 .image1{	
 	width:100%;
 	position:absolute;
-	border: 10px solid black;
-	box-shadow: 6px 6px 6px rgb(204, 212, 219);
+	
 	
 }
 
@@ -44,39 +44,31 @@ color:grey;
 }
 
 .description{
-	font-family:"Arial Black", Gadget, sans-serif;
+	font-family:'Segoe UI';
 	padding: 3% 6%;
 	font-size: 3.5rem;
+	color:rgb(45, 45, 71);
+	font-weight: bold;
+	width:100%;
 	
 }
 
 .para1{
-	font-family:"Arial Black", Gadget, sans-serif;
+	font-family:'Segoe UI';
+	font-weight: 500;
 	padding: 0 6%;
-	font-size: 1.5rem;
+	font-size: 14px;
 	color:black;
 	
 }
 
 #about{
-	background-color: #737373;
+	background-color: #ffffff ;
 	padding-bottom: 70px;
-}
-.about>.container{
-	background-color: #737373;
 	
 }
 
-.abouthead{
-	font-family:"Arial Black", Gadget, sans-serif;
-	
-	color:white;
-	font-size: 35px;
-}
 
-.aboutpara>p{
-	color:black;
-}
 .list>li{
 	color:black
 }
@@ -108,10 +100,23 @@ margin: 5% 2% 2% 5%;
 	
 	padding: 3%;
 }
+.navbar>button {
+    border-color: black;
+	
+	background:rgb(105, 175, 221);
+}
+
+.navbar>span>i{
+	color:black;
+}
+
+.navbar-toggler-icon{
+	color:transparent;
+}
 
 .container{
-	padding-top:60px;
-	color:#dcdde1;
+	padding-top:0px;
+	
 }
 
 #logo {
@@ -121,12 +126,17 @@ margin: 5% 2% 2% 5%;
 }
 .nav-item{
 	padding: 0px 18px;
+	
 }
 
 .nav-link{
 	font-size: 1.2rem;
 	font-family: Arial, Helvetica, sans-serif;
+	
 }
+
+
+
 .download-button{
 	margin: 5% 3% 5% 0;
 }
@@ -137,15 +147,20 @@ margin: 5% 2% 2% 5%;
 
 /* about section*/
 
-
-.about-box{
-	text-align:center;
-	padding: 4.5%;
+#about>.container>.row>.card{
+	background: linear-gradient(to right, #f0f0f0, #cbeeff);
+	border:none;
+	box-shadow: 0 1px 3px gray;
 }
-.about-box>h1{
-	font-family:"Arial Black", Gadget, sans-serif;
-	color:white;
-	font-size: 35px;
+
+.card-header{
+	background: linear-gradient(to right, #f0f0f0, #cbeeff);
+}
+.card-header>h1{
+	font-family: 'Segoe UI';
+	font-weight: bold;
+	color:#0a3d62;
+	
 }
 
 .icon{
@@ -175,22 +190,19 @@ margin: 5% 2% 2% 5%;
 }
 
 .head1>h1{
-	font-family:"Arial Black", Gadget, sans-serif;
-	color:white;
-	font-size: 35px;
+	font-family:'Segoe UI';
+	color:#0a3d62;
+	font-weight: bold;
 }
 /* Projects*/
 #project{
-	background-color:#737373;
+	background-color:#ffffff;
 }
 
-.card-title{
-	color: #6d6464;
+#project .card{
+	background: linear-gradient(to right, #f0f0f0, #cbeeff);
 }
 
-#project4_div{
-	background-color: #c5c5c5;
-}
 
  @media (max-width: 1028px) {
 	 #title{
@@ -209,15 +221,16 @@ margin: 5% 2% 2% 5%;
  /* footer */
  
  #cta{
-	background-color:#737373;
+	background: linear-gradient(to right, #ccc8c8, #a8cbdd);
+	margin-top:50px;
 	 padding:7% 10% 0%;
 	 text-align: center;
  }
 
  .contact>h3{
-	font-family:"Arial Black", Gadget, sans-serif;
-	color:white;
-	font-size: 35px;
+	font-family:'Segoe UI';
+	color:#0a3d62;
+	font-weight: bold;
  }
 
  .contact>input{
@@ -238,10 +251,20 @@ padding-right: 60px;
 	 
 	 text-align:center;
 	 padding: 2%; 
-	 background-color:#585656;
+	 background: linear-gradient(to right, #ccc8c8, #a8cbdd);
  }
 
  #footer>p{
 	 color:white;
+ }
+
+ #footer>i{
+	 cursor:pointer;
+	 font-size: 20px;
+	 color:#0a3d62;
+ }
+
+ #footer>i:hover{
+	color:#82ccdd;
  }
  
