@@ -197,6 +197,7 @@ margin: 5% 2% 2% 5%;
 /* Projects*/
 #project{
 	background-color:#ffffff;
+	padding:0px 10px 0px 10px;
 }
 
 #project .card{
